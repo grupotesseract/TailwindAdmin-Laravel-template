@@ -21,7 +21,7 @@ cp .env.example .env
 ./vessel start
 ./vessel comp install
 ./vessel art key:generate
-./vessel art:migrate --seed
+./vessel art migrate --seed
 
 # Prepare the assets:
 
