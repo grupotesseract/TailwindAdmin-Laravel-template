@@ -1,7 +1,44 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('content')
-<div class="container">
+
+<div class="w-full max-w-xs">
+    <h1 class="font-sans font-hairline mb-6 text-center">Login Here</h1>
+    <form method="POST" action="{{ route('login') }}" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    @csrf
+
+    <div class="mb-4">
+        <label class="block text-grey-darker text-sm font-hairline mb-2" for="email">
+        E-Mail Address (admin@admin)
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email" type="email" placeholder="user@email.com" required autofocus>
+    </div>
+    <div class="mb-6">
+        <label class="block text-grey-darker text-sm font-hairline mb-2" for="password">
+        Password (admin)
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="password" type="password" placeholder="******************" required>
+        <!-- <p class="text-red text-xs italic">Please choose a password.</p> -->
+    </div>
+    <div class="flex items-center justify-between">
+        <a href="/dashboard">
+        <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="button">
+        Sign In
+        </button>
+        </a>
+        <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="/dashboard">
+        Forgot Password?
+        </a>
+    </div>
+    </form>
+    <p class="text-center text-grey text-xs">
+    ©2018 tailwindadmin. All rights reserved.
+    </p>
+</div>
+
+@endsection
+
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -67,5 +104,4 @@
             </div>
         </div>
     </div>
-</div>
-@endsection
+</div> --}}

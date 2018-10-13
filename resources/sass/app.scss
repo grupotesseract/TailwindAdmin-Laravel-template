@@ -9,7 +9,7 @@
  *
  * @import "tailwindcss/preflight";
  */
- @tailwind preflight;
+@tailwind preflight;
 
  /**
   * This injects any component classes registered by plugins.
@@ -60,4 +60,39 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
-  
+
+/* Tailwind Admin Custom Style */
+.main-nav {
+    @apply flex items-center .justify-between flex-wrap .bg-grey-darkest .p-4 .pin; 
+}
+
+.main-logo {
+    @apply block flex items-center flex-no-shrink text-white;
+}
+
+.menu-item {
+    @apply no-underline block p-4 text-grey-darker;
+}
+
+/* Custom */
+.table {
+    width: 100%;
+    text-align: left;
+
+    td, th {
+        padding: .75rem;
+    }
+
+    thead {
+        border-top: 1px solid #dae1e7;
+        border-bottom: 1px solid #dae1e7;
+    }
+
+    tr {
+        border-bottom: 1px solid #dae1e7;
+    }
+}
+
+.login {
+    background: url('https://res.cloudinary.com/tesseract/image/upload/v1539422893/erp-time-tracking/login.jpg');
+}

@@ -12,7 +12,27 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
+});
+
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
+})->name('home');
+
+Route::get('/forms', function () {
+    return view('pages.forms');
+});
+
+Route::get('/buttons', function () {
+    return view('pages.buttons');
+});
+
+Route::get('/ui', function () {
+    return view('pages.ui');
+});
+
+Route::get('/404', function () {
+    return view('pages.404');
 });
 
 Auth::routes();

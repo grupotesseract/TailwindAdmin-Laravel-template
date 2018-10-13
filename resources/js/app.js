@@ -6,6 +6,9 @@
  */
 
 require('./bootstrap');
+require('./chart');
+require('./graph');
+require('./tailwind-admin');
 
 window.Vue = require('vue');
 
