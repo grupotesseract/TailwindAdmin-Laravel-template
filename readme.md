@@ -1,4 +1,5 @@
-# ERP + Time Tracking using Laravel, Tailwind CSS and Vue.js
+# ERP + Time Tracking using Laravel, Tailwind and Vue.js
+## Under Development
 
 ## Requirements
 
@@ -9,7 +10,7 @@ The Rest of the tools will run from inside the container.
 
 ## Installation
 
-´´´
+```
 # Clone the repository from GitHub and open the directory:
 
 git clone https://github.com/grupotesseract/erp-time-tracking.git && cd erp-time-tracking
@@ -26,6 +27,6 @@ cp .env.example .env
 
 ./vessel yarn install
 ./vessel yarn run watch
-´´´
+```
 
 **Access [http://localhost](http://localhost)**
