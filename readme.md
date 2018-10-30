@@ -1,4 +1,4 @@
-# TailwindAdmin + Laravel 5.7 Template whit Docker Vessel
+# TailwindAdmin + Laravel 5.7 Template with Docker Vessel
 
 ## About
 
