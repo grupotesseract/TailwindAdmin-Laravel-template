@@ -1,5 +1,4 @@
-# ERP + Time Tracking using Laravel, Tailwind and Vue.js
-## Under Development
+# TailwindAdmin + Laravel 5.7 Template whit Docker Vessel
 
 ![alt text](https://res.cloudinary.com/tesseract/image/upload/v1539428267/erp-time-tracking/github-cover.png)
 
