@@ -1,5 +1,10 @@
 # TailwindAdmin + Laravel 5.7 Template whit Docker Vessel
 
+# About
+
+This project integrates [Laravel 5.7](https://laravel.com/) Framework whit [Tailwind Admin](https://github.com/tailwindadmin/admin), the environment is set by [Docker Vessel](https://vessel.shippingdocker.com/)
+[Tailwind Admin](https://github.com/tailwindadmin/admin) is a super simple admin panel made whit [Tailwind CSS](https://tailwindcss.com).
+
 ![alt text](https://res.cloudinary.com/tesseract/image/upload/v1539428267/erp-time-tracking/github-cover.png)
 
 ## Requirements
